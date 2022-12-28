@@ -28,7 +28,7 @@ jobs:
     - name: Build with Gradle
       run: ./gradlew build
 
-    - name: Build and Push Docker Image
+    - name: Publish Docker
       uses: elgohr/Publish-Docker-Github-Action@v5
       with:
         image: guramtochilashvili/java_app-with_gradle
